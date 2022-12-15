@@ -1,0 +1,105 @@
+html, body {
+    margin: 0
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana;
+    background-color:#f3f3f3;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color:  #556c8b;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2, p, b, li {
+    color: #1f3757;
+    line-height: 35px;
+
+}
+h2 {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.img_logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+    text-align: left;
+ }
+.div_img {
+    text-align: center;   
+}
+.banner-logo {
+    width: 300px;
+    display: flex;
+    text-align: center;
+}
+.wrapper {
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+    
+ }
+ ul {
+    line-height: 30px;
+    padding-bottom: 40px;
+
+ }
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%;
+    padding: 10px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+header {
+        min-height: 150px;
+}
+.content {
+    min-height: 300px;
+    padding: 20px;
+  }
+  .table * {
+    border: 1px solid #1f3757;
+    padding: 0.5rem;
+    text-align: center;
+    color: #1f3757;
+  }
+footer {
+    background-color: #6891c7;
+    min-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em tahoma;
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid #1f3757;
+}
+
+textarea {
+    vertical-align: top;
+    height: 10em;
+}
+.button {
+    padding-left: 97px;
+}
+
+form div + div {
+    margin-top: 1em;
+}
